@@ -1,7 +1,7 @@
 blank_issues_enabled: false
 contact_links:
   - name: 💬 질문 · 자유 토론 (Discussions)
-    url: https://github.com/orgs/knup-project/discussions
+    url: https://github.com/knup-project/backend/discussions
     about: 사용법 질문이나 아이디어는 Discussions에서 편하게 이야기해 주세요.
   - name: 🔐 보안 취약점 제보
     url: https://github.com/knup-project/.github/blob/main/SECURITY.md
