@@ -1,0 +1,40 @@
+name: 💡 기능 제안
+description: 새로운 기능이나 개선 아이디어를 제안합니다.
+title: "feat: "
+labels: ["type:feature", "status:triage"]
+body:
+  - type: dropdown
+    id: area
+    attributes:
+      label: 관련 레포/영역
+      options:
+        - frontend
+        - backend
+        - infra
+        - 여러 레포에 걸침
+    validations:
+      required: true
+  - type: textarea
+    id: problem
+    attributes:
+      label: 어떤 문제/불편을 해결하나요?
+      placeholder: 호스트가 세션 도중 문제를 건너뛸 수 없어 진행이 끊깁니다.
+    validations:
+      required: true
+  - type: textarea
+    id: solution
+    attributes:
+      label: 제안하는 해결책
+    validations:
+      required: true
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: 고려한 대안 (선택)
+  - type: checkboxes
+    id: checks
+    attributes:
+      label: 확인
+      options:
+        - label: 비슷한 제안이 이미 있는지 검색했습니다.
+          required: true
